@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/sim-04/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/sim-04/static/js/main.3a9b1f8a.chunk.js",
+    "main.js.map": "/sim-04/static/js/main.3a9b1f8a.chunk.js.map",
+    "runtime-main.js": "/sim-04/static/js/runtime-main.10ce4342.js",
+    "runtime-main.js.map": "/sim-04/static/js/runtime-main.10ce4342.js.map",
+    "static/css/2.214ad93a.chunk.css": "/sim-04/static/css/2.214ad93a.chunk.css",
+    "static/js/2.99a29e6c.chunk.js": "/sim-04/static/js/2.99a29e6c.chunk.js",
+    "static/js/2.99a29e6c.chunk.js.map": "/sim-04/static/js/2.99a29e6c.chunk.js.map",
+    "index.html": "/sim-04/index.html",
+    "precache-manifest.cce886eaf211f6564042afd6b7805404.js": "/sim-04/precache-manifest.cce886eaf211f6564042afd6b7805404.js",
+    "service-worker.js": "/sim-04/service-worker.js",
+    "static/css/2.214ad93a.chunk.css.map": "/sim-04/static/css/2.214ad93a.chunk.css.map",
+    "static/css/main.5ecd60fb.chunk.css.map": "/sim-04/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.99a29e6c.chunk.js.LICENSE.txt": "/sim-04/static/js/2.99a29e6c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.10ce4342.js",
+    "static/css/2.214ad93a.chunk.css",
+    "static/js/2.99a29e6c.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.3a9b1f8a.chunk.js"
+  ]
+}
