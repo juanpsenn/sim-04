@@ -66,7 +66,7 @@ const App = () => {
 
 
   return (
-    <Container fluid style={{backgroundColor: "#e9e9e9"}}>
+    <Container fluid>
       <Row className={"mt-2"}>
         <Col sm={3}>
           <Card>
