@@ -22,7 +22,7 @@ const Filas = (props) => {
   const classes = useStyles();
   const {columns, rows} = props;
   const [page, setPage] = React.useState(0);
-  const [rowsPerPage, setRowsPerPage] = React.useState(20);
+  const [rowsPerPage, setRowsPerPage] = React.useState(21);
 
   const handleChangePage = (event, newPage) => {
     setPage(newPage);
@@ -69,7 +69,7 @@ const Filas = (props) => {
         </Table>
       </TableContainer>
       <TablePagination
-        rowsPerPageOptions={[20, 100, 150]}
+        rowsPerPageOptions={[21, 100, 150]}
         component="div"
         count={rows.length}
         rowsPerPage={rowsPerPage}

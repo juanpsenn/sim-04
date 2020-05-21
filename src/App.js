@@ -28,7 +28,7 @@ const App = () => {
     kc: 0.80,
     kp: 0.40,
     gr: 0.20,
-    stockAnterior: 20,
+    demandaAnterior: 20,
     ventasPerdidas: 3,
     stock: 23,
     desde: 0,
@@ -48,12 +48,12 @@ const App = () => {
 
 
   const handleClick = () => {
-    const {iteraciones, kc, kp, gr, stockAnterior, ventasPerdidas, stock, desde, hasta} = form;
+    const {iteraciones, kc, kp, gr, demandaAnterior, ventasPerdidas, stock, desde, hasta} = form;
     switch (politica) {
       case true:
         // rnd, demanda, stock, costoCompra, costoPerdida, gananciaReembolso, costoDiario, costoAcum, costoPromedio
         setRows(calcularFilaPoliticaA(Number(iteraciones), Number(kc),
-          Number(kp), Number(gr), Number(stockAnterior), Number(ventasPerdidas), Number(desde), Number(hasta)));
+          Number(kp), Number(gr), Number(demandaAnterior), Number(ventasPerdidas), Number(desde), Number(hasta)));
         break;
       case false:
         setRows(calcularFilaPoliticaB(Number(iteraciones), Number(kc),
@@ -113,9 +113,9 @@ const App = () => {
                 {politica ? (
                     <div>
                       <FormGroup>
-                        <label>Stock anterior</label>
-                        <FormInput name={"stockAnterior"} type={"number"} placeholder={"Ej: 21"}
-                                   value={form.stockAnterior}
+                        <label>Demanda anterior</label>
+                        <FormInput name={"demandaAnterior"} type={"number"} placeholder={"Ej: 21"}
+                                   value={form.demandaAnterior}
                                    onChange={handleChange}/>
                       </FormGroup>
                       <FormGroup>
